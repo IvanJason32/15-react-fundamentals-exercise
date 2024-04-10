@@ -4,7 +4,7 @@
   "description": "The material for learning React fundamentals",
   "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "keywords": [],
   "homepage": "https://ivanjason32.github.io/15-react-fundamentals-exercise/",
   "license": "GPL-3.0-only",
