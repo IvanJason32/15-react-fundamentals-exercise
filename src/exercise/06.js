@@ -79,42 +79,80 @@
 
 // ### Extra Credit - Validate lower-case ###
 
-import * as React from 'react'
+// import * as React from 'react'
 
-function UsernameForm({onSubmitUsername}) {
-  const inputRef = React.useRef();
-  const [error, setError] = React.useState(null);
+// function UsernameForm({onSubmitUsername}) {
+//   const inputRef = React.useRef();
+//   const [error, setError] = React.useState(null);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(inputRef.current.value);
-    onSubmitUsername(inputRef.current.value);
+//   const handleSubmit = (event) => {
+//     event.preventDefault();
+//     console.log(inputRef.current.value);
+//     onSubmitUsername(inputRef.current.value);
 
-  };
+//   };
   
-  const handleChange = (event) => {
-    // console.log(event);
-    const value = event.target.value;
-    const isValid = value === value.toLowerCase();
-    // console.log(isValid);
-    setError(isValid ? null : 'Username must be lower case');
-  }
+//   const handleChange = (event) => {
+//     const value = event.target.value;
+//     const isValid = value === value.toLowerCase();
+//     setError(isValid ? null : 'Username must be lower case');
+//   }
 
-  return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor='username'>Username:</label>
-        <input onChange={handleChange} ref={inputRef} id='username' type="text" />
-      </div>
-      {error &&<span role='alert' style={{color:'Red', fontWeight:'bold'}}>{error}</span>} 
-      <button disabled={Boolean(error)} type="submit">Submit</button>
-    </form>
-  )
-}
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <div>
+//         <label htmlFor='username'>Username:</label>
+//         <input onChange={handleChange} ref={inputRef} id='username' type="text" />
+//       </div>
+//       {error &&<span role='alert' style={{color:'Red', fontWeight:'bold'}}>{error}</span>} 
+//       <button disabled={Boolean(error)} type="submit">Submit</button>
+//     </form>
+//   )
+// }
 
-function App() {
-  const onSubmitUsername = username => alert(`You entered: ${username}`)
-  return <UsernameForm onSubmitUsername={onSubmitUsername} />
-}
+// function App() {
+//   const onSubmitUsername = username => alert(`You entered: ${username}`)
+//   return <UsernameForm onSubmitUsername={onSubmitUsername} />
+// }
 
-export default App
+// export default App
+
+// ### Extra Credit - Control the input value ###
+
+// import * as React from 'react'
+
+// function UsernameForm({onSubmitUsername}) {
+//   const inputRef = React.useRef();
+//   const [error, setError] = React.useState(null);
+
+//   const handleSubmit = (event) => {
+//     event.preventDefault();
+//     console.log(inputRef.current.value);
+//     onSubmitUsername(inputRef.current.value);
+
+//   };
+  
+//   const handleChange = (event) => {
+//     const value = event.target.value;
+//     const isValid = value === value.toLowerCase();
+//     setError(isValid ? null : 'Username must be lower case');
+//   }
+
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <div>
+//         <label htmlFor='username'>Username:</label>
+//         <input onChange={handleChange} ref={inputRef} id='username' type="text" />
+//       </div>
+//       {error &&<span role='alert' style={{color:'Red', fontWeight:'bold'}}>{error}</span>} 
+//       <button disabled={Boolean(error)} type="submit">Submit</button>
+//     </form>
+//   )
+// }
+
+// function App() {
+//   const onSubmitUsername = username => alert(`You entered: ${username}`)
+//   return <UsernameForm onSubmitUsername={onSubmitUsername} />
+// }
+
+// export default App

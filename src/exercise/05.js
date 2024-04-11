@@ -67,7 +67,7 @@ import '../box-styles.css'
 
 const Box = ({ size, style, ...props }) => {
   let classSize = "";
-  if (size != undefined) {
+  if (size !== undefined) {
     classSize = ` box--${size}`;
   }
   return <div className={`box${classSize}`} style={{ fontStyle: 'italic', ...style }} {...props} />
