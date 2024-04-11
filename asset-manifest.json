@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/15-react-fundamentals-exercise/static/css/main.2ffee9de.css",
-    "main.js": "/15-react-fundamentals-exercise/static/js/main.20463be8.js",
+    "main.js": "/15-react-fundamentals-exercise/static/js/main.ec663691.js",
     "static/js/736.30e66d9a.chunk.js": "/15-react-fundamentals-exercise/static/js/736.30e66d9a.chunk.js",
     "static/js/828.dcc86e09.chunk.js": "/15-react-fundamentals-exercise/static/js/828.dcc86e09.chunk.js",
     "static/js/461.27fc749a.chunk.js": "/15-react-fundamentals-exercise/static/js/461.27fc749a.chunk.js",
@@ -11,11 +11,11 @@
     "static/js/301.c00b9602.chunk.js": "/15-react-fundamentals-exercise/static/js/301.c00b9602.chunk.js",
     "static/js/667.d0626c11.chunk.js": "/15-react-fundamentals-exercise/static/js/667.d0626c11.chunk.js",
     "static/css/645.b8f5ce91.chunk.css": "/15-react-fundamentals-exercise/static/css/645.b8f5ce91.chunk.css",
-    "static/js/645.135361f6.chunk.js": "/15-react-fundamentals-exercise/static/js/645.135361f6.chunk.js",
+    "static/js/645.ed4ee825.chunk.js": "/15-react-fundamentals-exercise/static/js/645.ed4ee825.chunk.js",
     "static/js/786.eaabea12.chunk.js": "/15-react-fundamentals-exercise/static/js/786.eaabea12.chunk.js",
-    "static/js/759.41a97adf.chunk.js": "/15-react-fundamentals-exercise/static/js/759.41a97adf.chunk.js",
+    "static/js/759.948d0b33.chunk.js": "/15-react-fundamentals-exercise/static/js/759.948d0b33.chunk.js",
     "static/js/502.07c1a2c9.chunk.js": "/15-react-fundamentals-exercise/static/js/502.07c1a2c9.chunk.js",
-    "static/js/196.06515dbb.chunk.js": "/15-react-fundamentals-exercise/static/js/196.06515dbb.chunk.js",
+    "static/js/196.4682e857.chunk.js": "/15-react-fundamentals-exercise/static/js/196.4682e857.chunk.js",
     "static/js/134.8d9aeb21.chunk.js": "/15-react-fundamentals-exercise/static/js/134.8d9aeb21.chunk.js",
     "static/js/642.9247d6b6.chunk.js": "/15-react-fundamentals-exercise/static/js/642.9247d6b6.chunk.js",
     "static/js/186.5d3bdd1f.chunk.js": "/15-react-fundamentals-exercise/static/js/186.5d3bdd1f.chunk.js",
@@ -46,7 +46,7 @@
     "static/js/309.1db85397.chunk.js": "/15-react-fundamentals-exercise/static/js/309.1db85397.chunk.js",
     "index.html": "/15-react-fundamentals-exercise/index.html",
     "main.2ffee9de.css.map": "/15-react-fundamentals-exercise/static/css/main.2ffee9de.css.map",
-    "main.20463be8.js.map": "/15-react-fundamentals-exercise/static/js/main.20463be8.js.map",
+    "main.ec663691.js.map": "/15-react-fundamentals-exercise/static/js/main.ec663691.js.map",
     "736.30e66d9a.chunk.js.map": "/15-react-fundamentals-exercise/static/js/736.30e66d9a.chunk.js.map",
     "828.dcc86e09.chunk.js.map": "/15-react-fundamentals-exercise/static/js/828.dcc86e09.chunk.js.map",
     "461.27fc749a.chunk.js.map": "/15-react-fundamentals-exercise/static/js/461.27fc749a.chunk.js.map",
@@ -56,11 +56,10 @@
     "301.c00b9602.chunk.js.map": "/15-react-fundamentals-exercise/static/js/301.c00b9602.chunk.js.map",
     "667.d0626c11.chunk.js.map": "/15-react-fundamentals-exercise/static/js/667.d0626c11.chunk.js.map",
     "645.b8f5ce91.chunk.css.map": "/15-react-fundamentals-exercise/static/css/645.b8f5ce91.chunk.css.map",
-    "645.135361f6.chunk.js.map": "/15-react-fundamentals-exercise/static/js/645.135361f6.chunk.js.map",
+    "645.ed4ee825.chunk.js.map": "/15-react-fundamentals-exercise/static/js/645.ed4ee825.chunk.js.map",
     "786.eaabea12.chunk.js.map": "/15-react-fundamentals-exercise/static/js/786.eaabea12.chunk.js.map",
-    "759.41a97adf.chunk.js.map": "/15-react-fundamentals-exercise/static/js/759.41a97adf.chunk.js.map",
     "502.07c1a2c9.chunk.js.map": "/15-react-fundamentals-exercise/static/js/502.07c1a2c9.chunk.js.map",
-    "196.06515dbb.chunk.js.map": "/15-react-fundamentals-exercise/static/js/196.06515dbb.chunk.js.map",
+    "196.4682e857.chunk.js.map": "/15-react-fundamentals-exercise/static/js/196.4682e857.chunk.js.map",
     "134.8d9aeb21.chunk.js.map": "/15-react-fundamentals-exercise/static/js/134.8d9aeb21.chunk.js.map",
     "642.9247d6b6.chunk.js.map": "/15-react-fundamentals-exercise/static/js/642.9247d6b6.chunk.js.map",
     "186.5d3bdd1f.chunk.js.map": "/15-react-fundamentals-exercise/static/js/186.5d3bdd1f.chunk.js.map",
@@ -92,6 +91,6 @@
   },
   "entrypoints": [
     "static/css/main.2ffee9de.css",
-    "static/js/main.20463be8.js"
+    "static/js/main.ec663691.js"
   ]
 }
